@@ -18,6 +18,6 @@
 
 
 # Components
-> <div class="status-bar">
+> status bar
 1. `status-bar`가 전체 상태바, `__column`이 자식 
 1. `__` 으로 각 엘리먼트 구분 가능
