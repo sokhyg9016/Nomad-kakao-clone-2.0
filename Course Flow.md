@@ -15,6 +15,7 @@
 1. Status Bar
 1. Screen Title
 1. Navigation Bar
+1. Chat Screen
 
 # find.html
 1. Status Bar
