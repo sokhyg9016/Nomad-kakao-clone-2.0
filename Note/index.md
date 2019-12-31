@@ -28,7 +28,7 @@
      - `i` : [font-awesome](https://fontawesome.com/icons)
 
 1. status bar, header, Naviagation 구조의 내용을 다른 파일들로 복사
- - `find`, `friends`, `more`로 각각 복사 (`.html` 파일들)    
+    - `find`, `friends`, `more`로 각각 복사 (`.html` 파일들)    
 
 
 *icon은 font awesome을 이용
