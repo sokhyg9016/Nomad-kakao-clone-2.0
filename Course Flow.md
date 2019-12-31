@@ -12,5 +12,21 @@
   - Get perfect pixel dimensions and positioning to measure elements on any web page. 
 
 # index.html
-1. status bar
+1. Status Bar
+1. Screen Title
+1. Navigation Bar
 
+# find.html
+1. Status Bar
+1. Screen Title
+1. Navigation Bar
+
+# friends.html
+1. Status Bar
+1. Screen Title
+1. Navigation Bar
+
+# more.html
+1. Status Bar
+1. Screen Title
+1. Navigation Bar
