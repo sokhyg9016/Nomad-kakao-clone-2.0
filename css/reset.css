@@ -1,3 +1,22 @@
+/* 
+    reset.css: 모든 기본 style 값을 0으로 바꾼다.
+
+    여기서 모든 style 값이란 margin, padding, display, font-size.. 등등의
+    css 속성들을 말한다.
+
+    Reset CSS란 설명하자면 브라우저간의 차이를 최대한 없에서, 
+    스타일이 0인 상태에서 디자인을 만들어 나가기 위해 생겨난것입니다.
+    *font-size도 h1, h2, .. h7, p, a, font 가릴 것 없이 초기화 됨(크기가 같음.)
+
+    또한 reset.css 대신 normalize.css를 사용할 수도 았다.
+    reset.css가 모든 기본 값을 초기화시키는 것이라면 normalize.css는 기본적으로 각 브라우저의
+    스타일을 따르고 있지만 기준을 만들어 줄 수 있다.
+
+    즉, 모든 브라우저에서 한 태그(e.g.s h1)에 대한 크기를 같은 크기로 만드는 등의 
+    기준을 세울 수 있다.
+
+*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
