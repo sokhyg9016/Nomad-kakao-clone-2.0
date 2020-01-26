@@ -28,8 +28,9 @@
 .chats-body {
     padding: 10px 0px;
     padding-top: 110px;
-    min-height: 110vh;
+    min-height: 100vh;
     background-color: #FCFCFC;
+    overflow-x: hidden;
     /* background-image: url("../Img/chatBG.png"); */
     /* background-color: #FAFAFA; */
     /* margin-top: 100px; */
@@ -40,7 +41,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,13 +81,12 @@
 }
 
 .chat__write {
+    margin: 0 auto;
     bottom: 0;
     width: 100%;
     background-color: #fff;
     border-radius: 0;
     padding: 20px 60px;
-    margin: 0 auto;
-    width: 100%;
     border: none;
     border-top: 1px solid #DBDBDB;
     font-size: 14px;
@@ -229,10 +228,10 @@
 }
 
 .incoming-message {
-    animation: incomingAnim .5s ease-out forwards;
+    animation: incomingAnim 0.5s ease-out forwards;
 }
 
-@keyframes sentAnim {
+@keyframes sentAnimation {
     from {
         opacity: 0;
         transform: translateX(200px);
@@ -245,5 +244,5 @@
 }
 
 .sent-message {
-    animation: sentAnim .5s ease-out forwards;
+    animation: sentAnimation 0.5s ease-out forwards;
 }
