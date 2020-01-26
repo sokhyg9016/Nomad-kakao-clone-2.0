@@ -5,6 +5,7 @@
     width: 100%;
     padding: 10px 0px 0px 0px;
     border-bottom: 1px solid #DBDBDB;
+    z-index: 2;
 }
 
 .header-wrapper-box-shadow {
@@ -28,7 +29,6 @@
     padding: 10px 0px;
     padding-top: 110px;
     min-height: 110vh;
-    overflow: hidden;
     background-color: #FCFCFC;
     /* background-image: url("../Img/chatBG.png"); */
     /* background-color: #FAFAFA; */
@@ -148,7 +148,7 @@
 .message {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #1E1E1E;
     /* Mobile setting margin --> 10px; */
 }
@@ -163,10 +163,22 @@
     align-self: flex-end;
 }
 
+/* @keyframes spin {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateY(1turn);
+    }
+} */
+
 .incoming-message img {
     width: 30px;
     border-radius: 15px;
     margin-right: 15px;
+    border: 1px solid #DBDBDB;
+    /* animation: spin 1s linear infinite; */
 }
 
 .incoming-message .message__author {
